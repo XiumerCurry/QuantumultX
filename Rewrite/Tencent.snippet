@@ -1,0 +1,43 @@
+#!name = Tencent
+
+#[rewrite]
+^http:\/\/[\d\.:]*\/?(defaultts\.tc vmind\.qqvideol.tc finderpdd\.video).qq\.com\/\w+ url reject
+^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts omts vmind\.qqvideo).tc.qgl.com\/\w+ url reject
+^http:\/\/apd-vlivel.apdcdnl.tc.qql.com\/vmind\.qqvideol.tcl.qq.com/\w+ url reject
+^https:\/\/otheve\.beaconl.qq.com\/analytics\/upload\?sid=.*url reject
+^https:\/\/(news\.sspl.ggl.coml/applrl.inews.gg.com/(get(QQNewsUnreadListTagFeedListaw/page/event detailnews feed/hot module list))url script-response-body https://1aw.qithubusercontent.com/app2smile/rules/master/is/ag-news.is
+^https:\/\/us\.1\.qq\.com\/exapp url reject
+^https?:\/\/((25[0-5]12[0-4]\dl1\d{2}|[1-9]?\d)\.){3}(25[0-5]2[0-4]\d|1\d{2}[1-9]?\d)/music/common/upload/tsplash infourlreject
+^https?:\/\/.+?\/music\/common\/upload\/t_splash info\/ url reject
+^https?:\/\/\w+\.beaconl.qq.com url reject
+^https?:\/\/3gimg\.qg\.com\/tencentMapTouch\/app\/activity\/url reject-200
+^https?:\/\/3gimg\.gg\.com\/tencentMapTouch\/splash\/ url reject-200
+^https?:\/\/4gimg\.mapl.qql.com\/mwaSplash\/url reject-200
+^https?:\/\/api2\.helper\.gg\.com\/game\/buttons url reject-img
+^https?:/\/bk\.bingol.qql.com\/bk\/crx\/data\/videoAd.*$ url reject-dict
+^https?:\/\/blal.gtimgl.com\/qglive\/\d{6}.+?\.png url reject-img
+^https?:\/\/btrace\.qg\.com url reject-200
+^https?:\/\/btrace\.qg\.com url reject-200
+^https?:\/\/imgcachel.gq.com\/qqlive\/urlreject-img
+^https?:\/\/imgcachel.gq.com\/qqlive\/urlreject-img
+^https?:\/\/imgcachel.gq.com\/qqlive\/urlreject-img
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/url reject-img
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4} \d{4} urlreject-img
+^https?:/\/mtteve.beaconl.qql.coml/analytics url reject-img
+^https?:\/\/news\.sspl.qq.com\/app url reject
+^https?:\/\/gt\.qq\.com\/lua\/mengyou\/get_splash screen info url reject
+^https?:\/\/gt\.qg\.com\/lua\/mengyou\/get_splash screen info urlreject-200
+^https?:/\/qzonestylel.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/url reject-img
+^https?:\//r\.inews\.qq\.com\/(adsBlacklistgetFullScreenPicgetQQNewsRemoteConfig)ur1reject
+^https?:\/\/r\.inews\.qq\.com\/(getBannerAdsgetNewsRemoteConfiggetSplashsearchHotCatlist upLoadLoc)url reject
+^https?:\/\/splashqqlive\.gtimg\.com\/website/d{6} url reject-img
+^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a.png urlreject
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons url reject
+^https?:\/\/ssl\.kohsocialappl.qq.com:10001\/game\/buttons url reject-200
+^https?:\/\/vv\.videol.qq\.com\/(difflget)vmind url reject-dict
+^https?:\/\/vv\.videol.qgl.coml/getvinfo urlrequest-body &sppreviewtype=\d(.*)&spsrt=\drequest-body &sppreviewtype=0$1&spsrt=0
+^https?:\/\/vv\.videol.qq.com\/getvmind\? url reject-200
+^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png url reject-img
+^https?:\/\/y\.gtimg\.cn/musicl/commonl/\/upload\/kg_ad/.*?\d{4}\.jpg url reject-img
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t splash info\/ url reject
+^https?:\/\/y\.gtimg\.cn/music\/common\/upload\/targeted ads url reject-img
