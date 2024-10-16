@@ -1,4 +1,6 @@
 # NAME: Direct
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-07-03 16:16:16
 # HOST: 56
 # HOST-KEYWORD: 35
@@ -226,4 +228,3 @@ HOST-KEYWORD,weather-adge.apple.com,Direct
 HOST-KEYWORD,weather-edge.apple.com,Direct
 HOST-KEYWORD,westlawchina,Direct
 USER-AGENT,%E8%BF%85%E9%9B%B7,Direct
-a
