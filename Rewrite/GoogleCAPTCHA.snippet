@@ -6,7 +6,9 @@
 # 脚本：https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Google_CAPTCHA.js
 # 片段：https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Snippet/GoogleCAPTCHA.snippet
 
-#[Rewrite]
+# [Rewrite]
 ^https:\/\/www\.google\.com(?:\.[a-z]+|)\/(?:search\?(?:|.+?&)q=|$) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Google_CAPTCHA.js
-#[MITM]
+
+
+# [MITM]
 hostname = www.google.com*
